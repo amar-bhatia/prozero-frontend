@@ -2,6 +2,3 @@
   Access-Control-Allow-Origin: https://getprozero.com
   Access-Control-Allow-Methods: GET, POST, OPTIONS
   Access-Control-Allow-Headers: Origin, Content-Type, Accept
-
-/*.js
-  Content-Type: application/javascript; charset=UTF-8
