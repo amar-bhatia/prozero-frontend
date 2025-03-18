@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "routes": [
+    {
+      "src": "/assets/.*",
+      "dest": "/assets/"
+    },
+    {
+      "src": "/.*\\.(js|css|ico|png|jpg|jpeg|gif|svg|woff|woff2|ttf|otf|eot|json|map)",
+      "headers": { "cache-control": "public, max-age=31536000, immutable" }
+    },
+    {
+      "src": "/.*",
+      "dest": "/index.html",
+      "status": 200
+    }
+  ]
+}
